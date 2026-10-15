@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercicio 1</title>
+</head>
+
+<body>
+
+    <form>
+
+        <label for="codigo">Código</label>
+        <input type="text" id="codigo" value="0" name="codigo" disabled>
+
+        <br><br>
+
+        <label for="contrato">Nº do Contrato:</label>
+        <input type="text" id="contrato" name="contrato">
+
+        <label for="loja">Nº da Loja:</label>
+        <input type="text" id="loja" name="loja">
+
+        <br><br>
+
+        <label for="descricao">Descrição:</label>
+        <input type="text" id="descricao" name="descricao" style="width: 400px;" required>
+
+        <br><br>
+
+        <label for="data">Data:</label>
+        <input type="date" id="data" name="data">
+
+        <br><br>
+
+        <label for="operadora">Operadora:</label>
+        <select id="operadora" name="operadora" style="width: 400px;">
+            <option>Selecione</option>
+            <option>Operadora 1</option>
+            <option>Operadora 2</option>
+        </select>
+
+        <br><br>
+
+        <label for="filial">Filial:</label>
+        <select id="filial" name="filial" style="width: 400px;">
+            <option>Selecione</option>
+            <option>Filial 1</option>
+            <option>Filial 2</option>
+        </select>
+
+        <br><br>
+
+        <label for="empresa">Empresa Matriz:</label>
+        <select id="empresa" name="empresa" style="width: 400px;">
+            <option>Selecione</option>
+            <option>Empresa 1</option>
+            <option>Empresa 2</option>
+        </select>
+
+        <br><br>
+
+        <label for="origem">Origem das Contas Contábeis:</label>
+        <select id="origem" name="origem">
+            <option>Contrato</option>
+            <option>Cadastro</option>
+        </select>
+
+        <br><br>
+
+        <label for="status">Status do Contrato:</label>
+        <select id="status" name="status">
+            <option>Ativo</option>
+            <option>Inativo</option>
+        </select>
+
+        <br><br>
+
+        <label for="comprovante">Identificar Comprovante por:</label>
+        <select id="comprovante" name="comprovante">
+            <option>Número Autorização</option>
+            <option>Data</option>
+        </select>
+
+        <br><br>
+
+        <input type="checkbox" id="deposito" name="deposito">
+        <label for="deposito">Depósito na conta informada no arquivo</label>
+
+        <br>
+
+        <input type="checkbox" id="conciliacao" name="conciliacao">
+        <label for="conciliacao">Conciliação consolidada</label>
+
+        <br>
+
+        <input type="checkbox" id="contas" name="contas">
+        <label for="contas">Gerar Contas a Receber por Contrato</label>
+
+        <br>
+
+        <input type="checkbox" id="validar" name="validar">
+        <label for="validar">Validar valores na conciliação automática</label>
+
+        <br>
+
+        <input type="checkbox" id="remover" name="remover">
+        <label for="remover">Remover zeros à esquerda do Nº Comprovante</label>
+
+        <br>
+
+        <input type="checkbox" id="manual" name="manual">
+        <label for="manual">Permitir conciliação manual</label>
+
+        <br><br>
+
+        <label for="cartao">Cartão:</label>
+        <select id="cartao" name="cartao">
+            <option>Não Informado</option>
+            <option>Informado</option>
+        </select>
+
+        <br><br>
+
+        <label for="pagamento">Forma de Pagamento:</label>
+        <select id="pagamento" name="pagamento">
+            <option>Não Informado</option>
+            <option>Cartão</option>
+            <option>Dinheiro</option>
+            <option>Pix</option>
+        </select>
+
+        <h3>Contabilização</h3>
+
+        <label for="provisao">Conta de Provisão:</label>
+<input type="number" id="provisao" name="provisao" placeholder="N° da conta...">
+<input type="text" id="provisao1" name="provisao1" style="width: 400px;" placeholder="Descrição...">
+
+        <br><br>
+
+        <label for="banco">Conta do Banco:</label>
+        <input type="number" id="banco" name="banco" placeholder="N° da conta...">
+<input type="text" id="banco1" name="banco1" style="width: 400px;" placeholder="Descrição...">
+
+        <br><br>
+
+        <label for="comissao">Conta para Comissão:</label>
+        <input type="number" id="comissao" name="comissao" placeholder="N° da conta...">
+<input type="text" id="comissao1" name="comissao1" style="width: 400px;" placeholder="Descrição...">
+
+        <br><br>
+
+        <label for="cancelamento">Conta para Cancelamento:</label>
+        <input type="number" id="cancelamento" name="cancelamento" placeholder="N° da conta...">
+        <input type="text" id="cancelamento1" name="cancelamento1" style="width: 400px;" placeholder="Descrição...">
+
+        <br><br>
+
+        <label for="antecipacao">Conta de Antecipação:</label>
+        <input type="number" id="antecipacao" name="antecipacao" placeholder="N° da conta...">
+        <input type="text" id="antecipacao1" name="antecipacao1" style="width: 400px;" placeholder="Descrição...">
+
+        <br><br>
+
+        <label for="ajusteDebito">Conta de Ajuste Débito:</label>
+        <input type="number" id="ajusteDebito" name="ajusteDebito" placeholder="N° da conta...">
+        <input type="text" id="ajusteDebito1" name="ajusteDebito1" style="width: 400px;" placeholder="Descrição...">
+
+        <br><br>
+
+        <label for="ajusteCredito">Conta de Ajuste a Crédito:</label>
+        <input type="number" id="ajusteCredito" name="ajusteCredito" placeholder="N° da conta...">
+        <input type="text" id="ajusteCredito1" name="ajusteCredito1" style="width: 400px;" placeholder="Descrição...">
+
+        <br><br>
+
+        <label for="aluguel">Conta de Despesas de Aluguel:</label>
+        <input type="number" id="aluguel" name="aluguel" placeholder="N° da conta...">
+        <input type="text" id="aluguel1" name="aluguel1" style="width: 400px;" placeholder="Descrição...">
+
+        <br><br>
+
+        <label for="compensacao">Conta de Compensação:</label>
+        <input type="number" id="compensacao" name="compensacao" placeholder="N° da conta...">
+        <input type="text" id="compensacao1" name="compensacao1" style="width: 400px;" placeholder="Descrição...">
+
+        <br><br>
+
+        <input style="background-color: #F4D678" type="submit"  value="Inserir">
+        <input style="background-color: #F4D678" type="reset" value="Cancelar">
+        <button style="background-color: #F4D678" type="button">Log</button>
+
+    </form>
+
+</body>
+</html>
