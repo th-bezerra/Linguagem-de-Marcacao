@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Forms Coca-Cola</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li class="dropdown">
+                        <a class="active" href="javascript:void(0)" class="dopbtn"><i class="fa fa-angle-down"></i> Peças</a>
+                        <div class="dropdown-content">
+                            <a href="tabela.html">Tabelas</a>
+                            <a href="forms.html">Forms</a>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main class="forms">
+           <img class="coca_logo" src="https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Coca-Cola_logo.svg/960px-Coca-Cola_logo.svg.png?utm_source=pt.wikipedia.org&utm_campaign=index&utm_content=thumbnail">
+           
+           <h1>1. Informações do Produto</h1>
+           <br><br>
+           <p>Nome de Produto:</p>
+           <input type="text" placeholder="Nome do Produto">
+           <br><br>
+           <p>Código do Produto:</p>
+           <input type="text" placeholder="Código do Produto">
+           <br><br>
+           <p>Categoria do Produto:</p>
+           <select>
+                <option value="">Escolha uma Categoria</option>
+                <option value="1">Refrigerantes</option>
+                <option value="2">Sucos</option>
+                <option value="3">Águas</option>
+                <option value="4">Chás</option>
+                <option value="5">Bebidas Esportivas</option>
+                <option value="6">Energéticos</option>
+           </select>
+           <br><br>
+           <p>Marca do Produto:</p>
+           <select>
+                <option value="">Escolha uma Marca</option>
+                <option value="1">Coca-Cola</option>
+                <option value="2">Fanta</option>
+                <option value="3">Sprite</option>
+                <option value="4">Schweppes</option>
+                <option value="5">Del Valle</option>
+                <option value="6">Crystal</option>
+                <option value="7">Powerade</option>
+           </select>
+           <br><br>
+           <p>Descrição do Produto:</p>
+           <textarea placeholder="Descreva o Produto"></textarea>
+           <br><br><hr><br>
+           
+           <h1>2. Preço e Estoque</h1>
+            <br><br>
+            <p>Preço do Produto (R$):</p>
+            <input type="text" placeholder="Preço...">
+            <br><br>
+            <p>Preço Promocional (R$):</p>
+            <input type="text" placeholder="Preço Promocional...">
+            <br><br>
+            <p>Quantidade em Estoque:</p>
+            <input type="text" placeholder="Qtd">
+            <br><br>
+            <p>Estoque Mínimo:</p>
+            <input type="text" placeholder="Estoque Mínimo...">
+            <br><br><hr><br>
+            
+            <h1>3. Características do Produto</h1>
+            <br><br>
+            <p>Características da Bebida:</p>
+            <input type="checkbox"> Sem Açúcar <br>
+            <input type="checkbox"> Baixa Caloria <br>
+            <input type="checkbox"> Com Gás <br>
+            <input type="checkbox"> Sem Gás <br>
+            <input type="checkbox"> Com Cafeína <br>
+            <input type="checkbox"> Sem Cafeína <br>
+            <input type="checkbox"> Embalagem Retornável <br>
+           <br><br>
+           <p>Tipos de Embalagem:</p>
+           <input type="checkbox"> Lata <br>
+            <input type="checkbox"> Garrafa PET <br>
+            <input type="checkbox"> Garrafa de Vidro <br>
+            <input type="checkbox"> Caixa <br>
+           <br>
+            <p>Volume da Embalagem:</p>
+            <select>
+                <option value="">Selecione...</option>
+                <option value="200ml">200ml</option>
+                <option value="300ml">300ml</option>
+                <option value="500ml">500ml</option>
+                <option value="1litro">1l</option>
+                <option value="1.5litros">1.5l</option>
+                <option value="2litros">2l</option>
+                <option value="3litros">3l</option>
+            </select>
+            <br><br>
+            <p>Peso do Produto (gramas):</p>
+            <input type="text" placeholder="Peso...">
+            <br><br>
+            <label>Cor Predominante da Embalagem:</label>
+            <br>
+            <input type="color" value="#ff0000">
+            <br><br><hr>
+            
+            <h1>4. Fabricação e Validade</h1>
+            <br>
+            <p>Data de Fabricação:</p>
+            <input type="date">
+            <br><br>
+            <p>Data de Validade:</p>
+            <input type="date">
+            <br><br>
+            <p>Horário de Fabricação:</p>
+            <input type="time">
+            <br><br>
+            <p>Mês de lançamento do produto:</p>
+            <input type="month">
+            <br><br>
+            <p>Número do Lote:</p>
+            <input type="text" placeholder="EX: LT14202001">
+            <br><br>
+            <p>País de Fabricação:</p>
+            <select>
+                <option value="">Selecione um País</option>
+                <option value="brasil">Brasil</option>
+                <option value="argentina">Argentina</option>
+                <option value="canada">Canadá</option>
+                <option value="mexico">México</option>
+            </select>
+            <br><br><hr><br>
+            
+            <h1>5. Informações Nutricionais</h1>
+            <br>
+            <p>Quantidade de Calorias (kcal):</p>
+            <input type="text" placeholder="Calorias...">
+            <br><br>
+            <p>Quantidade de Açúcar (g):</p>
+            <input type="text" placeholder="Açúcar...">
+            <br><br>
+            <p>Quantidade de Sódio (mg):</p>
+            <input type="text" placeholder="Sódio...">
+            <br><br>
+            <p>Quantidade de Cafeína (mg): </p>
+            <input type="text" placeholder="Cafeína...">
+            <br><br>
+            <p>Ingredientes:</p>
+            <textarea placeholder="Informe os Ingredientes..."></textarea>
+            <br><br><hr><br>
+            
+            <h1>6. Fornecedor e Distribuição</h1>
+            <br>
+            <p>Nome do Fornecedor:</p>
+            <input type="text" placeholder="Nome do Fornecedor...">
+            <br><br>
+            <p>E-mail do Fornecedor:</p>
+            <input type="email" placeholder="E-mail...">
+            <br><br>
+            <p>Telefone do Fornecedor:</p>
+            <input type="tel" placeholder="Telefone...">
+            <br><br>
+            <p>Site do Fornecedor:</p>
+            <input type="url" placeholder="Site...">
+            <br><br>
+            <p>Estado do Fornecedor:</p>
+            <select>
+                <option value="">Selecione...</option>
+                <option value="sp">São Paulo</option>
+                <option value="rj">Rio de Janeiro</option>
+                <option value="mg">Minas Gerais</option>
+                <option value="pr">Paraná</option>
+                <option value="sc">Santa Catarina</option>
+                <option value="rs">Rio Grande do Sul</option>
+                <option value="outros">Outros...</option>
+            </select>
+            <br><br>
+            <p>Cidade de Distribuição:</p>
+            <input type="text" placeholder="Cidade...">
+            <br><br>
+            <p>CEP do centro de Distribuição:</p>
+            <input type="text" placeholder="00000-000">
+            <br><br><hr><br>
+            <h1>7. Imagens e Documentos</h1>
+            <br>
+            <p>Imagem do produto:</p>
+            <input type="file" accept="image/*"> 
+            <br><br>
+            <p>Ficha Técnica do Produto (PDF):</p>
+            <input type="file" accept="application/pdf">
+            <br><br>
+            <p>Link da página do produto:</p>
+            <input type="url" placeholder="https://www.exemplo.com/produto">
+            <br><br><hr><br>
+            <h1>8. Situação e Comercialização</h1>
+            <br>
+            <p>Situação do Produto:</p>
+            <input type="radio" name="situacao" value="ativo"> Ativo <br>
+            <input type="radio" name="situacao" value="inativo"> Indisponivel <br>
+            <input type="radio" name="situacao" value="descontinuado"> Descontinuado <br>
+            <br><br>
+            <p>Canais de Venda:</p>
+            <input type="checkbox"> Supermercados <br>
+            <input type="checkbox"> Restaurantes <br>
+            <input type="checkbox"> Lojas de Conveniencia <br>
+            <input type="checkbox"> Distribuidoras <br>
+            <input type="checkbox"> Internet <br>
+            <br><br>
+            <p>Classificação de Vendas:</p>
+            <input type="radio" name="classificacao" value="baixa"> Baixa <br>
+            <input type="radio" name="classificacao" value="media"> Média <br>
+            <input type="radio" name="classificacao" value="alta"> Alta <br>
+            <br><br>
+            <p>Observações adicionais:</p>
+            <textarea placeholder="Informe as Observações..."></textarea>
+            <br><br>
+            <input type="checkbox" value="termos" required> Confirmo que as informações cadastradas estão corretas.<br><br>
+            <br><br>
+            <input type="submit" value="Cadastrar Produto">
+            <input type="reset" value="Limpar Formulario">
+        </main>
+    </body>
+</html>
